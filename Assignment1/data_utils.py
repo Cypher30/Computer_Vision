@@ -1,3 +1,4 @@
+from dataclasses import replace
 from pickletools import read_unicodestringnl
 import numpy as np
 from urllib import request
@@ -37,7 +38,7 @@ def init_mnist():
 def load_mnist():
     with open("mnist.pkl",'rb') as f:
         mnist = pickle.load(f)
-    sample_array = np.random.choice(60000, 60000)
+    sample_array = np.random.choice(60000, 60000, replace=False)
     mnist['training_images'] = mnist['training_images'][sample_array, :]
     mnist['training_labels'] = mnist['training_labels'][sample_array]
     data = {}

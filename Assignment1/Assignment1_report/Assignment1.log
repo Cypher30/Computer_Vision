@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.14)  7 APR 2022 21:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.2.14)  8 APR 2022 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1219,14 +1219,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 786--787
 File: output_24_0.png Graphic file (type bmp)
 <output_24_0.png>
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
 
  []
 
 File: output_25_0.png Graphic file (type bmp)
 <output_25_0.png>
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
 
  []
 
@@ -1239,10 +1239,10 @@ Package rerunfilecheck Info: File `Assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: 44155D9128E62F13889535C640F12D75;1442.
  ) 
 Here is how much of TeX's memory you used:
- 29233 strings out of 476919
- 559013 string characters out of 5821840
- 1095724 words of memory out of 5000000
- 48728 multiletter control sequences out of 15000+600000
+ 29232 strings out of 476919
+ 558994 string characters out of 5821840
+ 1100724 words of memory out of 5000000
+ 48727 multiletter control sequences out of 15000+600000
  411423 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  112i,7n,116p,584b,626s stack positions out of 5000i,500n,10000p,200000b,80000s

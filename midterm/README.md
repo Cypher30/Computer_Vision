@@ -39,6 +39,6 @@ python test.py --workers 16 \ # Number of worker for dataloader
 ```
 
 Using --help for more informations.
-You could download the trained model from my [BaiduNetDisk](https://pan.baidu.com/s/1-R2zwqIWYwk0C8gFXhmozA) with code 2f91
+You could download the trained model from my [BaiduNetDisk](https://pan.baidu.com/s/1d---q__eczFNsB2Mq3wx7w) with code 9pvi
 
 You could reach the other parts with the [link](https://github.com/403forbiddennn/DATA130051-Computer-Vision/blob/main/cv-midterm.md)

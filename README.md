@@ -14,3 +14,4 @@ All the code in this assignment could run successfully using python 3.8.12.
 
 ### midterm
 This is the part for the image classification 
+The other parts could be reached with this [link](https://github.com/403forbiddennn/DATA130051-Computer-Vision/blob/main/cv-midterm.md)

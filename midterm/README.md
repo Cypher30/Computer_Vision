@@ -26,3 +26,4 @@ More details about paramters could be done with
 python main.py --help
 ```
 
+You could reach the other parts with the [link](https://github.com/403forbiddennn/DATA130051-Computer-Vision/blob/main/cv-midterm.md)

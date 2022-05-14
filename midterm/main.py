@@ -26,7 +26,7 @@ parser = argparse.ArgumentParser(description='Data augmentation of CIFAR100,\
 parser.add_argument('--dataset', default='CIFAR100', type=str,
                     help='dataset: CIFAR100, CIFAR10')
 parser.add_argument('--net_type', default='resnet', type=str,
-                    help='networktype: resnet, alexnet')
+                    help='networktype: resnet, alexnet, resnet_refined')
 parser.add_argument('--workers', default=4, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('--depth', default=110, type=int,
@@ -99,7 +99,7 @@ if args.net_type == 'resnet':
 	else:    
 		n = (args.depth - 2) // 6
 		model = ResNet_mine(BasicBlock, [n, n, n], num_classes=args.num_classes)
-elif args.net_type == 'test':
+elif args.net_type == 'resnet_refined':
 	model = ResNet_test(BasicBlock, [2, 2, 2, 2], num_classes=args.num_classes)
 else:
 	if args.localnorm:

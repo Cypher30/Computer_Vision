@@ -1,6 +1,9 @@
 ## Image Classification on CIFAR data set
 The image classification part of computer vision midterm checkpoint.
-Using the main.py to train the models for image classification on CIFAR10 or CIFAR100 data set, e.g.
+
+### Get started
+#### Training
+Using the [main.py](https://github.com/Cypher30/Computer_Vision/blob/main/midterm/main.py) to train the models for image classification on CIFAR10 or CIFAR100 data set, e.g.
 
 ```bash
 python main.py --workers 16 \ # Number of worker for dataloader
@@ -25,5 +28,17 @@ More details about paramters could be done with
 ```bash
 python main.py --help
 ```
+
+#### Testing
+Using the test.py to load the models trained for this task, e.g.
+
+```bash
+python test.py --workers 16 \ # Number of worker for dataloader
+			   --net_type resnet \ # Net type (resnet, alexnet, refined_resnet)
+			   --src resnet_cutmix.pt \ # .pt file that store the parameters of the net
+```
+
+Using --help for more informations.
+You could download the trained model from my [BaiduNetDisk](https://pan.baidu.com/s/1-R2zwqIWYwk0C8gFXhmozA) with code 2f91
 
 You could reach the other parts with the [link](https://github.com/403forbiddennn/DATA130051-Computer-Vision/blob/main/cv-midterm.md)
